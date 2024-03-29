@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-questions {
+  background-color: white;
+  box-shadow: 20px 14px 15px -3px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100vh;
+  padding: 20px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
